@@ -2,11 +2,8 @@ name: SSPanel_Auto_Checkin
 
 on:
     workflow_dispatch:
-    push:
-        branches:
-            - master
     schedule:
-        - cron: '20 18 * * *'
+        - cron: '45 1 * * *'
     watch:
         types: 
             - started
